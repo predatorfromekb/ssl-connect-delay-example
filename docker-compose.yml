@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  ssl-server:
+    build:
+      context: .
+      dockerfile: Ssl.Server/Dockerfile
+    container_name: ssl-server
+    networks:
+      - ssl-network
+
+  ssl-client:
+    build:
+      context: .
+      dockerfile: Ssl.Client/Dockerfile
+    container_name: ssl-client
+    depends_on:
+      - ssl-server
+    networks:
+      - ssl-network
+
+networks:
+  ssl-network:
+    driver: bridge

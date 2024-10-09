@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ssl.Client", "Ssl.Client\Ssl.Client.csproj", "{2AB00C07-9E45-4CF9-8569-F1FE6BA7CB1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ssl.Server", "Ssl.Server\Ssl.Server.csproj", "{6F0C7B5D-B278-4152-BB75-287D2E8E2A8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ssl.Common", "Ssl.Common\Ssl.Common.csproj", "{3BE5F4CC-6D5F-4098-ABB5-38469DA499D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AB00C07-9E45-4CF9-8569-F1FE6BA7CB1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB00C07-9E45-4CF9-8569-F1FE6BA7CB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB00C07-9E45-4CF9-8569-F1FE6BA7CB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB00C07-9E45-4CF9-8569-F1FE6BA7CB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F0C7B5D-B278-4152-BB75-287D2E8E2A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F0C7B5D-B278-4152-BB75-287D2E8E2A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F0C7B5D-B278-4152-BB75-287D2E8E2A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F0C7B5D-B278-4152-BB75-287D2E8E2A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE5F4CC-6D5F-4098-ABB5-38469DA499D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE5F4CC-6D5F-4098-ABB5-38469DA499D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE5F4CC-6D5F-4098-ABB5-38469DA499D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE5F4CC-6D5F-4098-ABB5-38469DA499D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
